@@ -1,6 +1,6 @@
 from flask import Flask
 app = Flask("api")
-@app.route("/api", methods=["GET"])
+@app.route("/teste", methods=["GET"])
 def rreturn():
-    return{"funcionado"}
+    return{"funcionado":"bem"}
 app.run()
